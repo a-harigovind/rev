@@ -15,6 +15,18 @@
 
 int main(int argc, char **argv){
   int i = 9;
-  i = i + argc;
+  i = i + 25;
+  i = ~i;
+
+  // asm ( "lw	a5,-20(s0);"
+  //       "mv	a4,a5;"
+  //       "lw	a5,-36(s0);"
+  //       "andn	a5,a4,a5;"
+  //       "sw	a5,-20(s0);");
+
+  asm ( "li	a6,7;"
+        "li	a4,10;"
+        "andn	a5,a4,a6;"
+        "sw	a5,-20(s0);");
   return i;
 }

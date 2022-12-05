@@ -1,0 +1,974 @@
+WARNING: Building component "cpu" with no links assigned.
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [$x:0x104a0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__BSS_END__:0x11c60]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__DATA_BEGIN__:0x114c8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__FRAME_END__:0x114a8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__SDATA_BEGIN__:0x11c10]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__atexit.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__bss_start:0x11c28]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__call_atexit.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__call_exitprocs:0x1030c]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__do_global_dtors_aux:0x10154]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__do_global_dtors_aux_fini_array_entry:0x114c0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__dso_handle:0x11c18]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__errno:0x104a0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__fini_array_end:0x114c8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__fini_array_start:0x114c0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__frame_dummy_init_array_entry:0x114b8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__global_pointer$:0x11cc8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__init_array_end:0x114c0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__init_array_start:0x114b0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__libc_fini_array:0x103d0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__libc_init_array:0x101f8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__preinit_array_end:0x114ac]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__preinit_array_start:0x114ac]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [__register_exitproc:0x1040e]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_edata:0x11c28]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_end:0x11c60]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_exit:0x1047e]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_global_impure_ptr:0x11c10]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_impure_ptr:0x11c20]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [_start:0x10116]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [atexit:0x10404]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [atexit.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [completed.1:0x11c28]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [crt0.o:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [crtstuff.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [errno.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [ex2.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [exit:0x100e8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [exit.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [fini.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [frame_dummy:0x10182]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [impure.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [impure_data:0x114c8]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [init.c:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [lib_a-memset.o:0x0]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [main:0x1019c]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [memset:0x10262]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [object.0:0x11c30]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [register_fini:0x10106]
+RevCPU[cpu:LoadElf:0]: Symbol Table Entry [sys_exit.c:0x0]
+RevCPU[cpu:LoadProgramArgs:0]: Loading program argv[0] = ex2.exe
+RevCPU[cpu:RevFeature:0]: Core 0 ; Initializing feature set from machine string=RV64B
+RevCPU[cpu:ParseMachineModel:0]: Core 0 ; Setting XLEN to 64
+RevCPU[cpu:ParseMachineModel:0]: Core 0 ; Architecture string=B
+RevCPU[cpu:SeedInstTable:0]: Core 0 ; Seeding instruction table for machine model=RV64B
+RevCPU[cpu:EnableExt:0]: Core 0 ; Enabling extension=RV64B
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Initializing table mapping for machine model=RV64B
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 55 = lui
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 23 = auipc
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 111 = jal
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 103 = jalr
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 99 = beq
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 355 = bne
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1123 = blt
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1379 = bge
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1635 = bltu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1891 = bgeu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 3 = lb
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 259 = lh
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 515 = lw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1027 = lbu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1283 = lhu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 35 = sb
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 291 = sh
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 547 = sw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 19 = addi
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 531 = slti
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 787 = sltiu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1043 = xori
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1555 = ori
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1811 = andi
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 275 = slli
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1299 = srli
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 66835 = srai
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 51 = add
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 65587 = sub
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 307 = sll
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 563 = slt
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 819 = sltu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1075 = xor
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1331 = srl
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 66867 = sra
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1587 = or
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1843 = and
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 15 = fence
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 271 = fence.i
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 115 = ecall
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 262259 = ebreak
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 371 = csrrw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 627 = csrrs
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 883 = csrrc
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1395 = csrrwi
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1651 = csrrsi
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1907 = csrrci
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1539 = lwu
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 771 = ld
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 803 = sd
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 27 = addiw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 283 = slliw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1307 = srliw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 66843 = sraiw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 59 = addw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 65595 = subw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 315 = sllw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 1339 = srlw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 66875 = sraw
+RevCPU[cpu:InitTableMapping:0]: Core 0 ; Table Entry 67379 = andn
+RevCPU[cpu:ReadOverrideTables:0]: Core 0 ; Reading override tables for machine model=RV64B
+RevCPU[cpu:RevCPU:0]: 
+*******                   
+/**////**                  
+/**   /**   *****  **    **
+/*******   **///**/**   /**
+/**///**  /*******//** /** 
+/**  //** /**////  //****  
+/**   //**//******  //**   
+//     //  //////    //    
+
+RevCPU[cpu:RevCPU:0]: Initialization of RevCPUs complete.
+RevCPU[cpu:DecodeInst:1000]: Core 0 ; Thread 0; PC:InstPayload = 0x1019c:0xfd010113
+RevCPU[cpu:ClockTick:1000]: Core 0 ; Thread 0; Executing PC= 0x1019c
+RevCPU[cpu:Execute:1000]: Register Values - 
+RevCPU[cpu:Execute:1000]: 0 : 0 
+RevCPU[cpu:Execute:1000]: 1 : 0 
+RevCPU[cpu:Execute:1000]: 2 : 1073741600 
+RevCPU[cpu:Execute:1000]: 3 : 72904 
+RevCPU[cpu:Execute:1000]: 4 : 0 
+RevCPU[cpu:Execute:1000]: 5 : 0 
+RevCPU[cpu:Execute:1000]: 6 : 0 
+RevCPU[cpu:Execute:1000]: 7 : 0 
+RevCPU[cpu:Execute:1000]: 8 : 72904 
+RevCPU[cpu:Execute:1000]: 9 : 0 
+RevCPU[cpu:Execute:1000]: 10 : 0 
+RevCPU[cpu:Execute:1000]: 11 : 0 
+RevCPU[cpu:Execute:1000]: 12 : 0 
+RevCPU[cpu:Execute:1000]: 13 : 0 
+RevCPU[cpu:Execute:1000]: 14 : 0 
+RevCPU[cpu:Execute:1000]: 15 : 0 
+RevCPU[cpu:Execute:1000]: 16 : 0 
+RevCPU[cpu:Execute:1000]: 17 : 0 
+RevCPU[cpu:Execute:1000]: 18 : 0 
+RevCPU[cpu:Execute:1000]: 19 : 0 
+RevCPU[cpu:Execute:1000]: 20 : 0 
+RevCPU[cpu:Execute:1000]: 21 : 0 
+RevCPU[cpu:Execute:1000]: 22 : 0 
+RevCPU[cpu:Execute:1000]: 23 : 0 
+RevCPU[cpu:Execute:1000]: 24 : 0 
+RevCPU[cpu:Execute:1000]: 25 : 0 
+RevCPU[cpu:Execute:1000]: 26 : 0 
+RevCPU[cpu:Execute:1000]: 27 : 0 
+RevCPU[cpu:Execute:1000]: 28 : 0 
+RevCPU[cpu:Execute:1000]: 29 : 0 
+RevCPU[cpu:Execute:1000]: 30 : 0 
+RevCPU[cpu:Execute:1000]: 31 : 0 
+RevCPU[cpu:ClockTick:1000]: Core 0 ; ThreadID 0; Retiring PC= 0x1019c
+RevCPU[cpu:DecodeInst:2000]: Core 0 ; Thread 0; PC:InstPayload = 0x101a0:0x2813423
+RevCPU[cpu:ClockTick:2000]: Core 0 ; Thread 0; Executing PC= 0x101a0
+RevCPU[cpu:Execute:2000]: Register Values - 
+RevCPU[cpu:Execute:2000]: 0 : 0 
+RevCPU[cpu:Execute:2000]: 1 : 0 
+RevCPU[cpu:Execute:2000]: 2 : 1073741600 
+RevCPU[cpu:Execute:2000]: 3 : 72904 
+RevCPU[cpu:Execute:2000]: 4 : 0 
+RevCPU[cpu:Execute:2000]: 5 : 0 
+RevCPU[cpu:Execute:2000]: 6 : 0 
+RevCPU[cpu:Execute:2000]: 7 : 0 
+RevCPU[cpu:Execute:2000]: 8 : 72904 
+RevCPU[cpu:Execute:2000]: 9 : 0 
+RevCPU[cpu:Execute:2000]: 10 : 0 
+RevCPU[cpu:Execute:2000]: 11 : 0 
+RevCPU[cpu:Execute:2000]: 12 : 0 
+RevCPU[cpu:Execute:2000]: 13 : 0 
+RevCPU[cpu:Execute:2000]: 14 : 0 
+RevCPU[cpu:Execute:2000]: 15 : 0 
+RevCPU[cpu:Execute:2000]: 16 : 0 
+RevCPU[cpu:Execute:2000]: 17 : 0 
+RevCPU[cpu:Execute:2000]: 18 : 0 
+RevCPU[cpu:Execute:2000]: 19 : 0 
+RevCPU[cpu:Execute:2000]: 20 : 0 
+RevCPU[cpu:Execute:2000]: 21 : 0 
+RevCPU[cpu:Execute:2000]: 22 : 0 
+RevCPU[cpu:Execute:2000]: 23 : 0 
+RevCPU[cpu:Execute:2000]: 24 : 0 
+RevCPU[cpu:Execute:2000]: 25 : 0 
+RevCPU[cpu:Execute:2000]: 26 : 0 
+RevCPU[cpu:Execute:2000]: 27 : 0 
+RevCPU[cpu:Execute:2000]: 28 : 0 
+RevCPU[cpu:Execute:2000]: 29 : 0 
+RevCPU[cpu:Execute:2000]: 30 : 0 
+RevCPU[cpu:Execute:2000]: 31 : 0 
+RevCPU[cpu:ClockTick:2000]: Core 0 ; ThreadID 0; Retiring PC= 0x101a0
+RevCPU[cpu:DecodeInst:3000]: Core 0 ; Thread 0; PC:InstPayload = 0x101a4:0x3010413
+RevCPU[cpu:ClockTick:3000]: Core 0 ; Thread 0; Executing PC= 0x101a4
+RevCPU[cpu:Execute:3000]: Register Values - 
+RevCPU[cpu:Execute:3000]: 0 : 0 
+RevCPU[cpu:Execute:3000]: 1 : 0 
+RevCPU[cpu:Execute:3000]: 2 : 1073741600 
+RevCPU[cpu:Execute:3000]: 3 : 72904 
+RevCPU[cpu:Execute:3000]: 4 : 0 
+RevCPU[cpu:Execute:3000]: 5 : 0 
+RevCPU[cpu:Execute:3000]: 6 : 0 
+RevCPU[cpu:Execute:3000]: 7 : 0 
+RevCPU[cpu:Execute:3000]: 8 : 1073741648 
+RevCPU[cpu:Execute:3000]: 9 : 0 
+RevCPU[cpu:Execute:3000]: 10 : 0 
+RevCPU[cpu:Execute:3000]: 11 : 0 
+RevCPU[cpu:Execute:3000]: 12 : 0 
+RevCPU[cpu:Execute:3000]: 13 : 0 
+RevCPU[cpu:Execute:3000]: 14 : 0 
+RevCPU[cpu:Execute:3000]: 15 : 0 
+RevCPU[cpu:Execute:3000]: 16 : 0 
+RevCPU[cpu:Execute:3000]: 17 : 0 
+RevCPU[cpu:Execute:3000]: 18 : 0 
+RevCPU[cpu:Execute:3000]: 19 : 0 
+RevCPU[cpu:Execute:3000]: 20 : 0 
+RevCPU[cpu:Execute:3000]: 21 : 0 
+RevCPU[cpu:Execute:3000]: 22 : 0 
+RevCPU[cpu:Execute:3000]: 23 : 0 
+RevCPU[cpu:Execute:3000]: 24 : 0 
+RevCPU[cpu:Execute:3000]: 25 : 0 
+RevCPU[cpu:Execute:3000]: 26 : 0 
+RevCPU[cpu:Execute:3000]: 27 : 0 
+RevCPU[cpu:Execute:3000]: 28 : 0 
+RevCPU[cpu:Execute:3000]: 29 : 0 
+RevCPU[cpu:Execute:3000]: 30 : 0 
+RevCPU[cpu:Execute:3000]: 31 : 0 
+RevCPU[cpu:ClockTick:3000]: Core 0 ; ThreadID 0; Retiring PC= 0x101a4
+RevCPU[cpu:DecodeInst:4000]: Core 0 ; Thread 0; PC:InstPayload = 0x101a8:0x50793
+RevCPU[cpu:ClockTick:4000]: Core 0 ; Thread 0; Executing PC= 0x101a8
+RevCPU[cpu:Execute:4000]: Register Values - 
+RevCPU[cpu:Execute:4000]: 0 : 0 
+RevCPU[cpu:Execute:4000]: 1 : 0 
+RevCPU[cpu:Execute:4000]: 2 : 1073741600 
+RevCPU[cpu:Execute:4000]: 3 : 72904 
+RevCPU[cpu:Execute:4000]: 4 : 0 
+RevCPU[cpu:Execute:4000]: 5 : 0 
+RevCPU[cpu:Execute:4000]: 6 : 0 
+RevCPU[cpu:Execute:4000]: 7 : 0 
+RevCPU[cpu:Execute:4000]: 8 : 1073741648 
+RevCPU[cpu:Execute:4000]: 9 : 0 
+RevCPU[cpu:Execute:4000]: 10 : 0 
+RevCPU[cpu:Execute:4000]: 11 : 0 
+RevCPU[cpu:Execute:4000]: 12 : 0 
+RevCPU[cpu:Execute:4000]: 13 : 0 
+RevCPU[cpu:Execute:4000]: 14 : 0 
+RevCPU[cpu:Execute:4000]: 15 : 0 
+RevCPU[cpu:Execute:4000]: 16 : 0 
+RevCPU[cpu:Execute:4000]: 17 : 0 
+RevCPU[cpu:Execute:4000]: 18 : 0 
+RevCPU[cpu:Execute:4000]: 19 : 0 
+RevCPU[cpu:Execute:4000]: 20 : 0 
+RevCPU[cpu:Execute:4000]: 21 : 0 
+RevCPU[cpu:Execute:4000]: 22 : 0 
+RevCPU[cpu:Execute:4000]: 23 : 0 
+RevCPU[cpu:Execute:4000]: 24 : 0 
+RevCPU[cpu:Execute:4000]: 25 : 0 
+RevCPU[cpu:Execute:4000]: 26 : 0 
+RevCPU[cpu:Execute:4000]: 27 : 0 
+RevCPU[cpu:Execute:4000]: 28 : 0 
+RevCPU[cpu:Execute:4000]: 29 : 0 
+RevCPU[cpu:Execute:4000]: 30 : 0 
+RevCPU[cpu:Execute:4000]: 31 : 0 
+RevCPU[cpu:ClockTick:4000]: Core 0 ; ThreadID 0; Retiring PC= 0x101a8
+RevCPU[cpu:DecodeInst:5000]: Core 0 ; Thread 0; PC:InstPayload = 0x101ac:0xfcb43823
+RevCPU[cpu:ClockTick:5000]: Core 0 ; Thread 0; Executing PC= 0x101ac
+RevCPU[cpu:Execute:5000]: Register Values - 
+RevCPU[cpu:Execute:5000]: 0 : 0 
+RevCPU[cpu:Execute:5000]: 1 : 0 
+RevCPU[cpu:Execute:5000]: 2 : 1073741600 
+RevCPU[cpu:Execute:5000]: 3 : 72904 
+RevCPU[cpu:Execute:5000]: 4 : 0 
+RevCPU[cpu:Execute:5000]: 5 : 0 
+RevCPU[cpu:Execute:5000]: 6 : 0 
+RevCPU[cpu:Execute:5000]: 7 : 0 
+RevCPU[cpu:Execute:5000]: 8 : 1073741648 
+RevCPU[cpu:Execute:5000]: 9 : 0 
+RevCPU[cpu:Execute:5000]: 10 : 0 
+RevCPU[cpu:Execute:5000]: 11 : 0 
+RevCPU[cpu:Execute:5000]: 12 : 0 
+RevCPU[cpu:Execute:5000]: 13 : 0 
+RevCPU[cpu:Execute:5000]: 14 : 0 
+RevCPU[cpu:Execute:5000]: 15 : 0 
+RevCPU[cpu:Execute:5000]: 16 : 0 
+RevCPU[cpu:Execute:5000]: 17 : 0 
+RevCPU[cpu:Execute:5000]: 18 : 0 
+RevCPU[cpu:Execute:5000]: 19 : 0 
+RevCPU[cpu:Execute:5000]: 20 : 0 
+RevCPU[cpu:Execute:5000]: 21 : 0 
+RevCPU[cpu:Execute:5000]: 22 : 0 
+RevCPU[cpu:Execute:5000]: 23 : 0 
+RevCPU[cpu:Execute:5000]: 24 : 0 
+RevCPU[cpu:Execute:5000]: 25 : 0 
+RevCPU[cpu:Execute:5000]: 26 : 0 
+RevCPU[cpu:Execute:5000]: 27 : 0 
+RevCPU[cpu:Execute:5000]: 28 : 0 
+RevCPU[cpu:Execute:5000]: 29 : 0 
+RevCPU[cpu:Execute:5000]: 30 : 0 
+RevCPU[cpu:Execute:5000]: 31 : 0 
+RevCPU[cpu:ClockTick:5000]: Core 0 ; ThreadID 0; Retiring PC= 0x101ac
+RevCPU[cpu:DecodeInst:6000]: Core 0 ; Thread 0; PC:InstPayload = 0x101b0:0xfcf42e23
+RevCPU[cpu:ClockTick:6000]: Core 0 ; Thread 0; Executing PC= 0x101b0
+RevCPU[cpu:Execute:6000]: Register Values - 
+RevCPU[cpu:Execute:6000]: 0 : 0 
+RevCPU[cpu:Execute:6000]: 1 : 0 
+RevCPU[cpu:Execute:6000]: 2 : 1073741600 
+RevCPU[cpu:Execute:6000]: 3 : 72904 
+RevCPU[cpu:Execute:6000]: 4 : 0 
+RevCPU[cpu:Execute:6000]: 5 : 0 
+RevCPU[cpu:Execute:6000]: 6 : 0 
+RevCPU[cpu:Execute:6000]: 7 : 0 
+RevCPU[cpu:Execute:6000]: 8 : 1073741648 
+RevCPU[cpu:Execute:6000]: 9 : 0 
+RevCPU[cpu:Execute:6000]: 10 : 0 
+RevCPU[cpu:Execute:6000]: 11 : 0 
+RevCPU[cpu:Execute:6000]: 12 : 0 
+RevCPU[cpu:Execute:6000]: 13 : 0 
+RevCPU[cpu:Execute:6000]: 14 : 0 
+RevCPU[cpu:Execute:6000]: 15 : 0 
+RevCPU[cpu:Execute:6000]: 16 : 0 
+RevCPU[cpu:Execute:6000]: 17 : 0 
+RevCPU[cpu:Execute:6000]: 18 : 0 
+RevCPU[cpu:Execute:6000]: 19 : 0 
+RevCPU[cpu:Execute:6000]: 20 : 0 
+RevCPU[cpu:Execute:6000]: 21 : 0 
+RevCPU[cpu:Execute:6000]: 22 : 0 
+RevCPU[cpu:Execute:6000]: 23 : 0 
+RevCPU[cpu:Execute:6000]: 24 : 0 
+RevCPU[cpu:Execute:6000]: 25 : 0 
+RevCPU[cpu:Execute:6000]: 26 : 0 
+RevCPU[cpu:Execute:6000]: 27 : 0 
+RevCPU[cpu:Execute:6000]: 28 : 0 
+RevCPU[cpu:Execute:6000]: 29 : 0 
+RevCPU[cpu:Execute:6000]: 30 : 0 
+RevCPU[cpu:Execute:6000]: 31 : 0 
+RevCPU[cpu:ClockTick:6000]: Core 0 ; ThreadID 0; Retiring PC= 0x101b0
+RevCPU[cpu:DecodeInst:7000]: Core 0 ; Thread 0; PC:InstPayload = 0x101b4:0x900793
+RevCPU[cpu:ClockTick:7000]: Core 0 ; Thread 0; Executing PC= 0x101b4
+RevCPU[cpu:Execute:7000]: Register Values - 
+RevCPU[cpu:Execute:7000]: 0 : 0 
+RevCPU[cpu:Execute:7000]: 1 : 0 
+RevCPU[cpu:Execute:7000]: 2 : 1073741600 
+RevCPU[cpu:Execute:7000]: 3 : 72904 
+RevCPU[cpu:Execute:7000]: 4 : 0 
+RevCPU[cpu:Execute:7000]: 5 : 0 
+RevCPU[cpu:Execute:7000]: 6 : 0 
+RevCPU[cpu:Execute:7000]: 7 : 0 
+RevCPU[cpu:Execute:7000]: 8 : 1073741648 
+RevCPU[cpu:Execute:7000]: 9 : 0 
+RevCPU[cpu:Execute:7000]: 10 : 0 
+RevCPU[cpu:Execute:7000]: 11 : 0 
+RevCPU[cpu:Execute:7000]: 12 : 0 
+RevCPU[cpu:Execute:7000]: 13 : 0 
+RevCPU[cpu:Execute:7000]: 14 : 0 
+RevCPU[cpu:Execute:7000]: 15 : 9 
+RevCPU[cpu:Execute:7000]: 16 : 0 
+RevCPU[cpu:Execute:7000]: 17 : 0 
+RevCPU[cpu:Execute:7000]: 18 : 0 
+RevCPU[cpu:Execute:7000]: 19 : 0 
+RevCPU[cpu:Execute:7000]: 20 : 0 
+RevCPU[cpu:Execute:7000]: 21 : 0 
+RevCPU[cpu:Execute:7000]: 22 : 0 
+RevCPU[cpu:Execute:7000]: 23 : 0 
+RevCPU[cpu:Execute:7000]: 24 : 0 
+RevCPU[cpu:Execute:7000]: 25 : 0 
+RevCPU[cpu:Execute:7000]: 26 : 0 
+RevCPU[cpu:Execute:7000]: 27 : 0 
+RevCPU[cpu:Execute:7000]: 28 : 0 
+RevCPU[cpu:Execute:7000]: 29 : 0 
+RevCPU[cpu:Execute:7000]: 30 : 0 
+RevCPU[cpu:Execute:7000]: 31 : 0 
+RevCPU[cpu:ClockTick:7000]: Core 0 ; ThreadID 0; Retiring PC= 0x101b4
+RevCPU[cpu:DecodeInst:8000]: Core 0 ; Thread 0; PC:InstPayload = 0x101b8:0xfef42623
+RevCPU[cpu:ClockTick:8000]: Core 0 ; Thread 0; Executing PC= 0x101b8
+RevCPU[cpu:Execute:8000]: Register Values - 
+RevCPU[cpu:Execute:8000]: 0 : 0 
+RevCPU[cpu:Execute:8000]: 1 : 0 
+RevCPU[cpu:Execute:8000]: 2 : 1073741600 
+RevCPU[cpu:Execute:8000]: 3 : 72904 
+RevCPU[cpu:Execute:8000]: 4 : 0 
+RevCPU[cpu:Execute:8000]: 5 : 0 
+RevCPU[cpu:Execute:8000]: 6 : 0 
+RevCPU[cpu:Execute:8000]: 7 : 0 
+RevCPU[cpu:Execute:8000]: 8 : 1073741648 
+RevCPU[cpu:Execute:8000]: 9 : 0 
+RevCPU[cpu:Execute:8000]: 10 : 0 
+RevCPU[cpu:Execute:8000]: 11 : 0 
+RevCPU[cpu:Execute:8000]: 12 : 0 
+RevCPU[cpu:Execute:8000]: 13 : 0 
+RevCPU[cpu:Execute:8000]: 14 : 0 
+RevCPU[cpu:Execute:8000]: 15 : 9 
+RevCPU[cpu:Execute:8000]: 16 : 0 
+RevCPU[cpu:Execute:8000]: 17 : 0 
+RevCPU[cpu:Execute:8000]: 18 : 0 
+RevCPU[cpu:Execute:8000]: 19 : 0 
+RevCPU[cpu:Execute:8000]: 20 : 0 
+RevCPU[cpu:Execute:8000]: 21 : 0 
+RevCPU[cpu:Execute:8000]: 22 : 0 
+RevCPU[cpu:Execute:8000]: 23 : 0 
+RevCPU[cpu:Execute:8000]: 24 : 0 
+RevCPU[cpu:Execute:8000]: 25 : 0 
+RevCPU[cpu:Execute:8000]: 26 : 0 
+RevCPU[cpu:Execute:8000]: 27 : 0 
+RevCPU[cpu:Execute:8000]: 28 : 0 
+RevCPU[cpu:Execute:8000]: 29 : 0 
+RevCPU[cpu:Execute:8000]: 30 : 0 
+RevCPU[cpu:Execute:8000]: 31 : 0 
+RevCPU[cpu:ClockTick:8000]: Core 0 ; ThreadID 0; Retiring PC= 0x101b8
+RevCPU[cpu:DecodeInst:9000]: Core 0 ; Thread 0; PC:InstPayload = 0x101bc:0xfec42783
+RevCPU[cpu:ClockTick:9000]: Core 0 ; Thread 0; Executing PC= 0x101bc
+RevCPU[cpu:Execute:9000]: Register Values - 
+RevCPU[cpu:Execute:9000]: 0 : 0 
+RevCPU[cpu:Execute:9000]: 1 : 0 
+RevCPU[cpu:Execute:9000]: 2 : 1073741600 
+RevCPU[cpu:Execute:9000]: 3 : 72904 
+RevCPU[cpu:Execute:9000]: 4 : 0 
+RevCPU[cpu:Execute:9000]: 5 : 0 
+RevCPU[cpu:Execute:9000]: 6 : 0 
+RevCPU[cpu:Execute:9000]: 7 : 0 
+RevCPU[cpu:Execute:9000]: 8 : 1073741648 
+RevCPU[cpu:Execute:9000]: 9 : 0 
+RevCPU[cpu:Execute:9000]: 10 : 0 
+RevCPU[cpu:Execute:9000]: 11 : 0 
+RevCPU[cpu:Execute:9000]: 12 : 0 
+RevCPU[cpu:Execute:9000]: 13 : 0 
+RevCPU[cpu:Execute:9000]: 14 : 0 
+RevCPU[cpu:Execute:9000]: 15 : 9 
+RevCPU[cpu:Execute:9000]: 16 : 0 
+RevCPU[cpu:Execute:9000]: 17 : 0 
+RevCPU[cpu:Execute:9000]: 18 : 0 
+RevCPU[cpu:Execute:9000]: 19 : 0 
+RevCPU[cpu:Execute:9000]: 20 : 0 
+RevCPU[cpu:Execute:9000]: 21 : 0 
+RevCPU[cpu:Execute:9000]: 22 : 0 
+RevCPU[cpu:Execute:9000]: 23 : 0 
+RevCPU[cpu:Execute:9000]: 24 : 0 
+RevCPU[cpu:Execute:9000]: 25 : 0 
+RevCPU[cpu:Execute:9000]: 26 : 0 
+RevCPU[cpu:Execute:9000]: 27 : 0 
+RevCPU[cpu:Execute:9000]: 28 : 0 
+RevCPU[cpu:Execute:9000]: 29 : 0 
+RevCPU[cpu:Execute:9000]: 30 : 0 
+RevCPU[cpu:Execute:9000]: 31 : 0 
+RevCPU[cpu:ClockTick:10000]: Core 0 ; No available thread to exec PC= 0x101bc
+RevCPU[cpu:ClockTick:10000]: Core 0 ; ThreadID 0; Retiring PC= 0x101bc
+RevCPU[cpu:DecodeInst:11000]: Core 0 ; Thread 0; PC:InstPayload = 0x101c0:0x197879b
+RevCPU[cpu:ClockTick:11000]: Core 0 ; Thread 0; Executing PC= 0x101c0
+RevCPU[cpu:Execute:11000]: Register Values - 
+RevCPU[cpu:Execute:11000]: 0 : 0 
+RevCPU[cpu:Execute:11000]: 1 : 0 
+RevCPU[cpu:Execute:11000]: 2 : 1073741600 
+RevCPU[cpu:Execute:11000]: 3 : 72904 
+RevCPU[cpu:Execute:11000]: 4 : 0 
+RevCPU[cpu:Execute:11000]: 5 : 0 
+RevCPU[cpu:Execute:11000]: 6 : 0 
+RevCPU[cpu:Execute:11000]: 7 : 0 
+RevCPU[cpu:Execute:11000]: 8 : 1073741648 
+RevCPU[cpu:Execute:11000]: 9 : 0 
+RevCPU[cpu:Execute:11000]: 10 : 0 
+RevCPU[cpu:Execute:11000]: 11 : 0 
+RevCPU[cpu:Execute:11000]: 12 : 0 
+RevCPU[cpu:Execute:11000]: 13 : 0 
+RevCPU[cpu:Execute:11000]: 14 : 0 
+RevCPU[cpu:Execute:11000]: 15 : 34 
+RevCPU[cpu:Execute:11000]: 16 : 0 
+RevCPU[cpu:Execute:11000]: 17 : 0 
+RevCPU[cpu:Execute:11000]: 18 : 0 
+RevCPU[cpu:Execute:11000]: 19 : 0 
+RevCPU[cpu:Execute:11000]: 20 : 0 
+RevCPU[cpu:Execute:11000]: 21 : 0 
+RevCPU[cpu:Execute:11000]: 22 : 0 
+RevCPU[cpu:Execute:11000]: 23 : 0 
+RevCPU[cpu:Execute:11000]: 24 : 0 
+RevCPU[cpu:Execute:11000]: 25 : 0 
+RevCPU[cpu:Execute:11000]: 26 : 0 
+RevCPU[cpu:Execute:11000]: 27 : 0 
+RevCPU[cpu:Execute:11000]: 28 : 0 
+RevCPU[cpu:Execute:11000]: 29 : 0 
+RevCPU[cpu:Execute:11000]: 30 : 0 
+RevCPU[cpu:Execute:11000]: 31 : 0 
+RevCPU[cpu:ClockTick:11000]: Core 0 ; ThreadID 0; Retiring PC= 0x101c0
+RevCPU[cpu:DecodeInst:12000]: Core 0 ; Thread 0; PC:InstPayload = 0x101c4:0xfef42623
+RevCPU[cpu:ClockTick:12000]: Core 0 ; Thread 0; Executing PC= 0x101c4
+RevCPU[cpu:Execute:12000]: Register Values - 
+RevCPU[cpu:Execute:12000]: 0 : 0 
+RevCPU[cpu:Execute:12000]: 1 : 0 
+RevCPU[cpu:Execute:12000]: 2 : 1073741600 
+RevCPU[cpu:Execute:12000]: 3 : 72904 
+RevCPU[cpu:Execute:12000]: 4 : 0 
+RevCPU[cpu:Execute:12000]: 5 : 0 
+RevCPU[cpu:Execute:12000]: 6 : 0 
+RevCPU[cpu:Execute:12000]: 7 : 0 
+RevCPU[cpu:Execute:12000]: 8 : 1073741648 
+RevCPU[cpu:Execute:12000]: 9 : 0 
+RevCPU[cpu:Execute:12000]: 10 : 0 
+RevCPU[cpu:Execute:12000]: 11 : 0 
+RevCPU[cpu:Execute:12000]: 12 : 0 
+RevCPU[cpu:Execute:12000]: 13 : 0 
+RevCPU[cpu:Execute:12000]: 14 : 0 
+RevCPU[cpu:Execute:12000]: 15 : 34 
+RevCPU[cpu:Execute:12000]: 16 : 0 
+RevCPU[cpu:Execute:12000]: 17 : 0 
+RevCPU[cpu:Execute:12000]: 18 : 0 
+RevCPU[cpu:Execute:12000]: 19 : 0 
+RevCPU[cpu:Execute:12000]: 20 : 0 
+RevCPU[cpu:Execute:12000]: 21 : 0 
+RevCPU[cpu:Execute:12000]: 22 : 0 
+RevCPU[cpu:Execute:12000]: 23 : 0 
+RevCPU[cpu:Execute:12000]: 24 : 0 
+RevCPU[cpu:Execute:12000]: 25 : 0 
+RevCPU[cpu:Execute:12000]: 26 : 0 
+RevCPU[cpu:Execute:12000]: 27 : 0 
+RevCPU[cpu:Execute:12000]: 28 : 0 
+RevCPU[cpu:Execute:12000]: 29 : 0 
+RevCPU[cpu:Execute:12000]: 30 : 0 
+RevCPU[cpu:Execute:12000]: 31 : 0 
+RevCPU[cpu:ClockTick:12000]: Core 0 ; ThreadID 0; Retiring PC= 0x101c4
+RevCPU[cpu:DecodeInst:13000]: Core 0 ; Thread 0; PC:InstPayload = 0x101c8:0xfec42783
+RevCPU[cpu:ClockTick:13000]: Core 0 ; Thread 0; Executing PC= 0x101c8
+RevCPU[cpu:Execute:13000]: Register Values - 
+RevCPU[cpu:Execute:13000]: 0 : 0 
+RevCPU[cpu:Execute:13000]: 1 : 0 
+RevCPU[cpu:Execute:13000]: 2 : 1073741600 
+RevCPU[cpu:Execute:13000]: 3 : 72904 
+RevCPU[cpu:Execute:13000]: 4 : 0 
+RevCPU[cpu:Execute:13000]: 5 : 0 
+RevCPU[cpu:Execute:13000]: 6 : 0 
+RevCPU[cpu:Execute:13000]: 7 : 0 
+RevCPU[cpu:Execute:13000]: 8 : 1073741648 
+RevCPU[cpu:Execute:13000]: 9 : 0 
+RevCPU[cpu:Execute:13000]: 10 : 0 
+RevCPU[cpu:Execute:13000]: 11 : 0 
+RevCPU[cpu:Execute:13000]: 12 : 0 
+RevCPU[cpu:Execute:13000]: 13 : 0 
+RevCPU[cpu:Execute:13000]: 14 : 0 
+RevCPU[cpu:Execute:13000]: 15 : 34 
+RevCPU[cpu:Execute:13000]: 16 : 0 
+RevCPU[cpu:Execute:13000]: 17 : 0 
+RevCPU[cpu:Execute:13000]: 18 : 0 
+RevCPU[cpu:Execute:13000]: 19 : 0 
+RevCPU[cpu:Execute:13000]: 20 : 0 
+RevCPU[cpu:Execute:13000]: 21 : 0 
+RevCPU[cpu:Execute:13000]: 22 : 0 
+RevCPU[cpu:Execute:13000]: 23 : 0 
+RevCPU[cpu:Execute:13000]: 24 : 0 
+RevCPU[cpu:Execute:13000]: 25 : 0 
+RevCPU[cpu:Execute:13000]: 26 : 0 
+RevCPU[cpu:Execute:13000]: 27 : 0 
+RevCPU[cpu:Execute:13000]: 28 : 0 
+RevCPU[cpu:Execute:13000]: 29 : 0 
+RevCPU[cpu:Execute:13000]: 30 : 0 
+RevCPU[cpu:Execute:13000]: 31 : 0 
+RevCPU[cpu:ClockTick:14000]: Core 0 ; No available thread to exec PC= 0x101c8
+RevCPU[cpu:ClockTick:14000]: Core 0 ; ThreadID 0; Retiring PC= 0x101c8
+RevCPU[cpu:DecodeInst:15000]: Core 0 ; Thread 0; PC:InstPayload = 0x101cc:0xfff7c793
+RevCPU[cpu:ClockTick:15000]: Core 0 ; Thread 0; Executing PC= 0x101cc
+RevCPU[cpu:Execute:15000]: Register Values - 
+RevCPU[cpu:Execute:15000]: 0 : 0 
+RevCPU[cpu:Execute:15000]: 1 : 0 
+RevCPU[cpu:Execute:15000]: 2 : 1073741600 
+RevCPU[cpu:Execute:15000]: 3 : 72904 
+RevCPU[cpu:Execute:15000]: 4 : 0 
+RevCPU[cpu:Execute:15000]: 5 : 0 
+RevCPU[cpu:Execute:15000]: 6 : 0 
+RevCPU[cpu:Execute:15000]: 7 : 0 
+RevCPU[cpu:Execute:15000]: 8 : 1073741648 
+RevCPU[cpu:Execute:15000]: 9 : 0 
+RevCPU[cpu:Execute:15000]: 10 : 0 
+RevCPU[cpu:Execute:15000]: 11 : 0 
+RevCPU[cpu:Execute:15000]: 12 : 0 
+RevCPU[cpu:Execute:15000]: 13 : 0 
+RevCPU[cpu:Execute:15000]: 14 : 0 
+RevCPU[cpu:Execute:15000]: 15 : 4061 
+RevCPU[cpu:Execute:15000]: 16 : 0 
+RevCPU[cpu:Execute:15000]: 17 : 0 
+RevCPU[cpu:Execute:15000]: 18 : 0 
+RevCPU[cpu:Execute:15000]: 19 : 0 
+RevCPU[cpu:Execute:15000]: 20 : 0 
+RevCPU[cpu:Execute:15000]: 21 : 0 
+RevCPU[cpu:Execute:15000]: 22 : 0 
+RevCPU[cpu:Execute:15000]: 23 : 0 
+RevCPU[cpu:Execute:15000]: 24 : 0 
+RevCPU[cpu:Execute:15000]: 25 : 0 
+RevCPU[cpu:Execute:15000]: 26 : 0 
+RevCPU[cpu:Execute:15000]: 27 : 0 
+RevCPU[cpu:Execute:15000]: 28 : 0 
+RevCPU[cpu:Execute:15000]: 29 : 0 
+RevCPU[cpu:Execute:15000]: 30 : 0 
+RevCPU[cpu:Execute:15000]: 31 : 0 
+RevCPU[cpu:ClockTick:15000]: Core 0 ; ThreadID 0; Retiring PC= 0x101cc
+RevCPU[cpu:DecodeInst:16000]: Core 0 ; Thread 0; PC:InstPayload = 0x101d0:0xfef42623
+RevCPU[cpu:ClockTick:16000]: Core 0 ; Thread 0; Executing PC= 0x101d0
+RevCPU[cpu:Execute:16000]: Register Values - 
+RevCPU[cpu:Execute:16000]: 0 : 0 
+RevCPU[cpu:Execute:16000]: 1 : 0 
+RevCPU[cpu:Execute:16000]: 2 : 1073741600 
+RevCPU[cpu:Execute:16000]: 3 : 72904 
+RevCPU[cpu:Execute:16000]: 4 : 0 
+RevCPU[cpu:Execute:16000]: 5 : 0 
+RevCPU[cpu:Execute:16000]: 6 : 0 
+RevCPU[cpu:Execute:16000]: 7 : 0 
+RevCPU[cpu:Execute:16000]: 8 : 1073741648 
+RevCPU[cpu:Execute:16000]: 9 : 0 
+RevCPU[cpu:Execute:16000]: 10 : 0 
+RevCPU[cpu:Execute:16000]: 11 : 0 
+RevCPU[cpu:Execute:16000]: 12 : 0 
+RevCPU[cpu:Execute:16000]: 13 : 0 
+RevCPU[cpu:Execute:16000]: 14 : 0 
+RevCPU[cpu:Execute:16000]: 15 : 4061 
+RevCPU[cpu:Execute:16000]: 16 : 0 
+RevCPU[cpu:Execute:16000]: 17 : 0 
+RevCPU[cpu:Execute:16000]: 18 : 0 
+RevCPU[cpu:Execute:16000]: 19 : 0 
+RevCPU[cpu:Execute:16000]: 20 : 0 
+RevCPU[cpu:Execute:16000]: 21 : 0 
+RevCPU[cpu:Execute:16000]: 22 : 0 
+RevCPU[cpu:Execute:16000]: 23 : 0 
+RevCPU[cpu:Execute:16000]: 24 : 0 
+RevCPU[cpu:Execute:16000]: 25 : 0 
+RevCPU[cpu:Execute:16000]: 26 : 0 
+RevCPU[cpu:Execute:16000]: 27 : 0 
+RevCPU[cpu:Execute:16000]: 28 : 0 
+RevCPU[cpu:Execute:16000]: 29 : 0 
+RevCPU[cpu:Execute:16000]: 30 : 0 
+RevCPU[cpu:Execute:16000]: 31 : 0 
+RevCPU[cpu:ClockTick:16000]: Core 0 ; ThreadID 0; Retiring PC= 0x101d0
+RevCPU[cpu:DecodeInst:17000]: Core 0 ; Thread 0; PC:InstPayload = 0x101d4:0x700813
+RevCPU[cpu:ClockTick:17000]: Core 0 ; Thread 0; Executing PC= 0x101d4
+RevCPU[cpu:Execute:17000]: Register Values - 
+RevCPU[cpu:Execute:17000]: 0 : 0 
+RevCPU[cpu:Execute:17000]: 1 : 0 
+RevCPU[cpu:Execute:17000]: 2 : 1073741600 
+RevCPU[cpu:Execute:17000]: 3 : 72904 
+RevCPU[cpu:Execute:17000]: 4 : 0 
+RevCPU[cpu:Execute:17000]: 5 : 0 
+RevCPU[cpu:Execute:17000]: 6 : 0 
+RevCPU[cpu:Execute:17000]: 7 : 0 
+RevCPU[cpu:Execute:17000]: 8 : 1073741648 
+RevCPU[cpu:Execute:17000]: 9 : 0 
+RevCPU[cpu:Execute:17000]: 10 : 0 
+RevCPU[cpu:Execute:17000]: 11 : 0 
+RevCPU[cpu:Execute:17000]: 12 : 0 
+RevCPU[cpu:Execute:17000]: 13 : 0 
+RevCPU[cpu:Execute:17000]: 14 : 0 
+RevCPU[cpu:Execute:17000]: 15 : 4061 
+RevCPU[cpu:Execute:17000]: 16 : 7 
+RevCPU[cpu:Execute:17000]: 17 : 0 
+RevCPU[cpu:Execute:17000]: 18 : 0 
+RevCPU[cpu:Execute:17000]: 19 : 0 
+RevCPU[cpu:Execute:17000]: 20 : 0 
+RevCPU[cpu:Execute:17000]: 21 : 0 
+RevCPU[cpu:Execute:17000]: 22 : 0 
+RevCPU[cpu:Execute:17000]: 23 : 0 
+RevCPU[cpu:Execute:17000]: 24 : 0 
+RevCPU[cpu:Execute:17000]: 25 : 0 
+RevCPU[cpu:Execute:17000]: 26 : 0 
+RevCPU[cpu:Execute:17000]: 27 : 0 
+RevCPU[cpu:Execute:17000]: 28 : 0 
+RevCPU[cpu:Execute:17000]: 29 : 0 
+RevCPU[cpu:Execute:17000]: 30 : 0 
+RevCPU[cpu:Execute:17000]: 31 : 0 
+RevCPU[cpu:ClockTick:17000]: Core 0 ; ThreadID 0; Retiring PC= 0x101d4
+RevCPU[cpu:DecodeInst:18000]: Core 0 ; Thread 0; PC:InstPayload = 0x101d8:0xa00713
+RevCPU[cpu:ClockTick:18000]: Core 0 ; Thread 0; Executing PC= 0x101d8
+RevCPU[cpu:Execute:18000]: Register Values - 
+RevCPU[cpu:Execute:18000]: 0 : 0 
+RevCPU[cpu:Execute:18000]: 1 : 0 
+RevCPU[cpu:Execute:18000]: 2 : 1073741600 
+RevCPU[cpu:Execute:18000]: 3 : 72904 
+RevCPU[cpu:Execute:18000]: 4 : 0 
+RevCPU[cpu:Execute:18000]: 5 : 0 
+RevCPU[cpu:Execute:18000]: 6 : 0 
+RevCPU[cpu:Execute:18000]: 7 : 0 
+RevCPU[cpu:Execute:18000]: 8 : 1073741648 
+RevCPU[cpu:Execute:18000]: 9 : 0 
+RevCPU[cpu:Execute:18000]: 10 : 0 
+RevCPU[cpu:Execute:18000]: 11 : 0 
+RevCPU[cpu:Execute:18000]: 12 : 0 
+RevCPU[cpu:Execute:18000]: 13 : 0 
+RevCPU[cpu:Execute:18000]: 14 : 10 
+RevCPU[cpu:Execute:18000]: 15 : 4061 
+RevCPU[cpu:Execute:18000]: 16 : 7 
+RevCPU[cpu:Execute:18000]: 17 : 0 
+RevCPU[cpu:Execute:18000]: 18 : 0 
+RevCPU[cpu:Execute:18000]: 19 : 0 
+RevCPU[cpu:Execute:18000]: 20 : 0 
+RevCPU[cpu:Execute:18000]: 21 : 0 
+RevCPU[cpu:Execute:18000]: 22 : 0 
+RevCPU[cpu:Execute:18000]: 23 : 0 
+RevCPU[cpu:Execute:18000]: 24 : 0 
+RevCPU[cpu:Execute:18000]: 25 : 0 
+RevCPU[cpu:Execute:18000]: 26 : 0 
+RevCPU[cpu:Execute:18000]: 27 : 0 
+RevCPU[cpu:Execute:18000]: 28 : 0 
+RevCPU[cpu:Execute:18000]: 29 : 0 
+RevCPU[cpu:Execute:18000]: 30 : 0 
+RevCPU[cpu:Execute:18000]: 31 : 0 
+RevCPU[cpu:ClockTick:18000]: Core 0 ; ThreadID 0; Retiring PC= 0x101d8
+RevCPU[cpu:DecodeInst:19000]: Core 0 ; Thread 0; PC:InstPayload = 0x101dc:0x410777b3
+RevCPU[cpu:ClockTick:19000]: Core 0 ; Thread 0; Executing PC= 0x101dc
+RevCPU[cpu:Execute:19000]: Register Values - 
+RevCPU[cpu:Execute:19000]: 0 : 0 
+RevCPU[cpu:Execute:19000]: 1 : 0 
+RevCPU[cpu:Execute:19000]: 2 : 1073741600 
+RevCPU[cpu:Execute:19000]: 3 : 72904 
+RevCPU[cpu:Execute:19000]: 4 : 0 
+RevCPU[cpu:Execute:19000]: 5 : 0 
+RevCPU[cpu:Execute:19000]: 6 : 0 
+RevCPU[cpu:Execute:19000]: 7 : 0 
+RevCPU[cpu:Execute:19000]: 8 : 1073741648 
+RevCPU[cpu:Execute:19000]: 9 : 0 
+RevCPU[cpu:Execute:19000]: 10 : 0 
+RevCPU[cpu:Execute:19000]: 11 : 0 
+RevCPU[cpu:Execute:19000]: 12 : 0 
+RevCPU[cpu:Execute:19000]: 13 : 0 
+RevCPU[cpu:Execute:19000]: 14 : 10 
+RevCPU[cpu:Execute:19000]: 15 : 8 
+RevCPU[cpu:Execute:19000]: 16 : 7 
+RevCPU[cpu:Execute:19000]: 17 : 0 
+RevCPU[cpu:Execute:19000]: 18 : 0 
+RevCPU[cpu:Execute:19000]: 19 : 0 
+RevCPU[cpu:Execute:19000]: 20 : 0 
+RevCPU[cpu:Execute:19000]: 21 : 0 
+RevCPU[cpu:Execute:19000]: 22 : 0 
+RevCPU[cpu:Execute:19000]: 23 : 0 
+RevCPU[cpu:Execute:19000]: 24 : 0 
+RevCPU[cpu:Execute:19000]: 25 : 0 
+RevCPU[cpu:Execute:19000]: 26 : 0 
+RevCPU[cpu:Execute:19000]: 27 : 0 
+RevCPU[cpu:Execute:19000]: 28 : 0 
+RevCPU[cpu:Execute:19000]: 29 : 0 
+RevCPU[cpu:Execute:19000]: 30 : 0 
+RevCPU[cpu:Execute:19000]: 31 : 0 
+RevCPU[cpu:ClockTick:20000]: Core 0 ; No available thread to exec PC= 0x101dc
+RevCPU[cpu:ClockTick:21000]: Core 0 ; No available thread to exec PC= 0x101dc
+RevCPU[cpu:ClockTick:22000]: Core 0 ; No available thread to exec PC= 0x101dc
+RevCPU[cpu:ClockTick:23000]: Core 0 ; No available thread to exec PC= 0x101dc
+RevCPU[cpu:ClockTick:24000]: Core 0 ; No available thread to exec PC= 0x101dc
+RevCPU[cpu:ClockTick:24000]: Core 0 ; ThreadID 0; Retiring PC= 0x101dc
+RevCPU[cpu:DecodeInst:25000]: Core 0 ; Thread 0; PC:InstPayload = 0x101e0:0xfef42623
+RevCPU[cpu:ClockTick:25000]: Core 0 ; Thread 0; Executing PC= 0x101e0
+RevCPU[cpu:Execute:25000]: Register Values - 
+RevCPU[cpu:Execute:25000]: 0 : 0 
+RevCPU[cpu:Execute:25000]: 1 : 0 
+RevCPU[cpu:Execute:25000]: 2 : 1073741600 
+RevCPU[cpu:Execute:25000]: 3 : 72904 
+RevCPU[cpu:Execute:25000]: 4 : 0 
+RevCPU[cpu:Execute:25000]: 5 : 0 
+RevCPU[cpu:Execute:25000]: 6 : 0 
+RevCPU[cpu:Execute:25000]: 7 : 0 
+RevCPU[cpu:Execute:25000]: 8 : 1073741648 
+RevCPU[cpu:Execute:25000]: 9 : 0 
+RevCPU[cpu:Execute:25000]: 10 : 0 
+RevCPU[cpu:Execute:25000]: 11 : 0 
+RevCPU[cpu:Execute:25000]: 12 : 0 
+RevCPU[cpu:Execute:25000]: 13 : 0 
+RevCPU[cpu:Execute:25000]: 14 : 10 
+RevCPU[cpu:Execute:25000]: 15 : 8 
+RevCPU[cpu:Execute:25000]: 16 : 7 
+RevCPU[cpu:Execute:25000]: 17 : 0 
+RevCPU[cpu:Execute:25000]: 18 : 0 
+RevCPU[cpu:Execute:25000]: 19 : 0 
+RevCPU[cpu:Execute:25000]: 20 : 0 
+RevCPU[cpu:Execute:25000]: 21 : 0 
+RevCPU[cpu:Execute:25000]: 22 : 0 
+RevCPU[cpu:Execute:25000]: 23 : 0 
+RevCPU[cpu:Execute:25000]: 24 : 0 
+RevCPU[cpu:Execute:25000]: 25 : 0 
+RevCPU[cpu:Execute:25000]: 26 : 0 
+RevCPU[cpu:Execute:25000]: 27 : 0 
+RevCPU[cpu:Execute:25000]: 28 : 0 
+RevCPU[cpu:Execute:25000]: 29 : 0 
+RevCPU[cpu:Execute:25000]: 30 : 0 
+RevCPU[cpu:Execute:25000]: 31 : 0 
+RevCPU[cpu:ClockTick:25000]: Core 0 ; ThreadID 0; Retiring PC= 0x101e0
+RevCPU[cpu:DecodeInst:26000]: Core 0 ; Thread 0; PC:InstPayload = 0x101e4:0xfec42783
+RevCPU[cpu:ClockTick:26000]: Core 0 ; Thread 0; Executing PC= 0x101e4
+RevCPU[cpu:Execute:26000]: Register Values - 
+RevCPU[cpu:Execute:26000]: 0 : 0 
+RevCPU[cpu:Execute:26000]: 1 : 0 
+RevCPU[cpu:Execute:26000]: 2 : 1073741600 
+RevCPU[cpu:Execute:26000]: 3 : 72904 
+RevCPU[cpu:Execute:26000]: 4 : 0 
+RevCPU[cpu:Execute:26000]: 5 : 0 
+RevCPU[cpu:Execute:26000]: 6 : 0 
+RevCPU[cpu:Execute:26000]: 7 : 0 
+RevCPU[cpu:Execute:26000]: 8 : 1073741648 
+RevCPU[cpu:Execute:26000]: 9 : 0 
+RevCPU[cpu:Execute:26000]: 10 : 0 
+RevCPU[cpu:Execute:26000]: 11 : 0 
+RevCPU[cpu:Execute:26000]: 12 : 0 
+RevCPU[cpu:Execute:26000]: 13 : 0 
+RevCPU[cpu:Execute:26000]: 14 : 10 
+RevCPU[cpu:Execute:26000]: 15 : 8 
+RevCPU[cpu:Execute:26000]: 16 : 7 
+RevCPU[cpu:Execute:26000]: 17 : 0 
+RevCPU[cpu:Execute:26000]: 18 : 0 
+RevCPU[cpu:Execute:26000]: 19 : 0 
+RevCPU[cpu:Execute:26000]: 20 : 0 
+RevCPU[cpu:Execute:26000]: 21 : 0 
+RevCPU[cpu:Execute:26000]: 22 : 0 
+RevCPU[cpu:Execute:26000]: 23 : 0 
+RevCPU[cpu:Execute:26000]: 24 : 0 
+RevCPU[cpu:Execute:26000]: 25 : 0 
+RevCPU[cpu:Execute:26000]: 26 : 0 
+RevCPU[cpu:Execute:26000]: 27 : 0 
+RevCPU[cpu:Execute:26000]: 28 : 0 
+RevCPU[cpu:Execute:26000]: 29 : 0 
+RevCPU[cpu:Execute:26000]: 30 : 0 
+RevCPU[cpu:Execute:26000]: 31 : 0 
+RevCPU[cpu:ClockTick:27000]: Core 0 ; No available thread to exec PC= 0x101e4
+RevCPU[cpu:ClockTick:27000]: Core 0 ; ThreadID 0; Retiring PC= 0x101e4
+RevCPU[cpu:DecodeInst:28000]: Core 0 ; Thread 0; PC:InstPayload = 0x101e8:0x78513
+RevCPU[cpu:ClockTick:28000]: Core 0 ; Thread 0; Executing PC= 0x101e8
+RevCPU[cpu:Execute:28000]: Register Values - 
+RevCPU[cpu:Execute:28000]: 0 : 0 
+RevCPU[cpu:Execute:28000]: 1 : 0 
+RevCPU[cpu:Execute:28000]: 2 : 1073741600 
+RevCPU[cpu:Execute:28000]: 3 : 72904 
+RevCPU[cpu:Execute:28000]: 4 : 0 
+RevCPU[cpu:Execute:28000]: 5 : 0 
+RevCPU[cpu:Execute:28000]: 6 : 0 
+RevCPU[cpu:Execute:28000]: 7 : 0 
+RevCPU[cpu:Execute:28000]: 8 : 1073741648 
+RevCPU[cpu:Execute:28000]: 9 : 0 
+RevCPU[cpu:Execute:28000]: 10 : 8 
+RevCPU[cpu:Execute:28000]: 11 : 0 
+RevCPU[cpu:Execute:28000]: 12 : 0 
+RevCPU[cpu:Execute:28000]: 13 : 0 
+RevCPU[cpu:Execute:28000]: 14 : 10 
+RevCPU[cpu:Execute:28000]: 15 : 8 
+RevCPU[cpu:Execute:28000]: 16 : 7 
+RevCPU[cpu:Execute:28000]: 17 : 0 
+RevCPU[cpu:Execute:28000]: 18 : 0 
+RevCPU[cpu:Execute:28000]: 19 : 0 
+RevCPU[cpu:Execute:28000]: 20 : 0 
+RevCPU[cpu:Execute:28000]: 21 : 0 
+RevCPU[cpu:Execute:28000]: 22 : 0 
+RevCPU[cpu:Execute:28000]: 23 : 0 
+RevCPU[cpu:Execute:28000]: 24 : 0 
+RevCPU[cpu:Execute:28000]: 25 : 0 
+RevCPU[cpu:Execute:28000]: 26 : 0 
+RevCPU[cpu:Execute:28000]: 27 : 0 
+RevCPU[cpu:Execute:28000]: 28 : 0 
+RevCPU[cpu:Execute:28000]: 29 : 0 
+RevCPU[cpu:Execute:28000]: 30 : 0 
+RevCPU[cpu:Execute:28000]: 31 : 0 
+RevCPU[cpu:ClockTick:28000]: Core 0 ; ThreadID 0; Retiring PC= 0x101e8
+RevCPU[cpu:DecodeInst:29000]: Core 0 ; Thread 0; PC:InstPayload = 0x101ec:0x2813403
+RevCPU[cpu:ClockTick:29000]: Core 0 ; Thread 0; Executing PC= 0x101ec
+RevCPU[cpu:Execute:29000]: Register Values - 
+RevCPU[cpu:Execute:29000]: 0 : 0 
+RevCPU[cpu:Execute:29000]: 1 : 0 
+RevCPU[cpu:Execute:29000]: 2 : 1073741600 
+RevCPU[cpu:Execute:29000]: 3 : 72904 
+RevCPU[cpu:Execute:29000]: 4 : 0 
+RevCPU[cpu:Execute:29000]: 5 : 0 
+RevCPU[cpu:Execute:29000]: 6 : 0 
+RevCPU[cpu:Execute:29000]: 7 : 0 
+RevCPU[cpu:Execute:29000]: 8 : 72904 
+RevCPU[cpu:Execute:29000]: 9 : 0 
+RevCPU[cpu:Execute:29000]: 10 : 8 
+RevCPU[cpu:Execute:29000]: 11 : 0 
+RevCPU[cpu:Execute:29000]: 12 : 0 
+RevCPU[cpu:Execute:29000]: 13 : 0 
+RevCPU[cpu:Execute:29000]: 14 : 10 
+RevCPU[cpu:Execute:29000]: 15 : 8 
+RevCPU[cpu:Execute:29000]: 16 : 7 
+RevCPU[cpu:Execute:29000]: 17 : 0 
+RevCPU[cpu:Execute:29000]: 18 : 0 
+RevCPU[cpu:Execute:29000]: 19 : 0 
+RevCPU[cpu:Execute:29000]: 20 : 0 
+RevCPU[cpu:Execute:29000]: 21 : 0 
+RevCPU[cpu:Execute:29000]: 22 : 0 
+RevCPU[cpu:Execute:29000]: 23 : 0 
+RevCPU[cpu:Execute:29000]: 24 : 0 
+RevCPU[cpu:Execute:29000]: 25 : 0 
+RevCPU[cpu:Execute:29000]: 26 : 0 
+RevCPU[cpu:Execute:29000]: 27 : 0 
+RevCPU[cpu:Execute:29000]: 28 : 0 
+RevCPU[cpu:Execute:29000]: 29 : 0 
+RevCPU[cpu:Execute:29000]: 30 : 0 
+RevCPU[cpu:Execute:29000]: 31 : 0 
+RevCPU[cpu:ClockTick:30000]: Core 0 ; No available thread to exec PC= 0x101ec
+RevCPU[cpu:ClockTick:30000]: Core 0 ; ThreadID 0; Retiring PC= 0x101ec
+RevCPU[cpu:DecodeInst:31000]: Core 0 ; Thread 0; PC:InstPayload = 0x101f0:0x3010113
+RevCPU[cpu:ClockTick:31000]: Core 0 ; Thread 0; Executing PC= 0x101f0
+RevCPU[cpu:Execute:31000]: Register Values - 
+RevCPU[cpu:Execute:31000]: 0 : 0 
+RevCPU[cpu:Execute:31000]: 1 : 0 
+RevCPU[cpu:Execute:31000]: 2 : 1073741648 
+RevCPU[cpu:Execute:31000]: 3 : 72904 
+RevCPU[cpu:Execute:31000]: 4 : 0 
+RevCPU[cpu:Execute:31000]: 5 : 0 
+RevCPU[cpu:Execute:31000]: 6 : 0 
+RevCPU[cpu:Execute:31000]: 7 : 0 
+RevCPU[cpu:Execute:31000]: 8 : 72904 
+RevCPU[cpu:Execute:31000]: 9 : 0 
+RevCPU[cpu:Execute:31000]: 10 : 8 
+RevCPU[cpu:Execute:31000]: 11 : 0 
+RevCPU[cpu:Execute:31000]: 12 : 0 
+RevCPU[cpu:Execute:31000]: 13 : 0 
+RevCPU[cpu:Execute:31000]: 14 : 10 
+RevCPU[cpu:Execute:31000]: 15 : 8 
+RevCPU[cpu:Execute:31000]: 16 : 7 
+RevCPU[cpu:Execute:31000]: 17 : 0 
+RevCPU[cpu:Execute:31000]: 18 : 0 
+RevCPU[cpu:Execute:31000]: 19 : 0 
+RevCPU[cpu:Execute:31000]: 20 : 0 
+RevCPU[cpu:Execute:31000]: 21 : 0 
+RevCPU[cpu:Execute:31000]: 22 : 0 
+RevCPU[cpu:Execute:31000]: 23 : 0 
+RevCPU[cpu:Execute:31000]: 24 : 0 
+RevCPU[cpu:Execute:31000]: 25 : 0 
+RevCPU[cpu:Execute:31000]: 26 : 0 
+RevCPU[cpu:Execute:31000]: 27 : 0 
+RevCPU[cpu:Execute:31000]: 28 : 0 
+RevCPU[cpu:Execute:31000]: 29 : 0 
+RevCPU[cpu:Execute:31000]: 30 : 0 
+RevCPU[cpu:Execute:31000]: 31 : 0 
+RevCPU[cpu:ClockTick:31000]: Core 0 ; ThreadID 0; Retiring PC= 0x101f0
+RevCPU[cpu:DecodeInst:32000]: Core 0 ; Thread 0; PC:InstPayload = 0x101f4:0x8067
+RevCPU[cpu:ClockTick:32000]: Core 0 ; Thread 0; Executing PC= 0x101f4
+RevCPU[cpu:Execute:32000]: Register Values - 
+RevCPU[cpu:Execute:32000]: 0 : 0 
+RevCPU[cpu:Execute:32000]: 1 : 0 
+RevCPU[cpu:Execute:32000]: 2 : 1073741648 
+RevCPU[cpu:Execute:32000]: 3 : 72904 
+RevCPU[cpu:Execute:32000]: 4 : 0 
+RevCPU[cpu:Execute:32000]: 5 : 0 
+RevCPU[cpu:Execute:32000]: 6 : 0 
+RevCPU[cpu:Execute:32000]: 7 : 0 
+RevCPU[cpu:Execute:32000]: 8 : 72904 
+RevCPU[cpu:Execute:32000]: 9 : 0 
+RevCPU[cpu:Execute:32000]: 10 : 8 
+RevCPU[cpu:Execute:32000]: 11 : 0 
+RevCPU[cpu:Execute:32000]: 12 : 0 
+RevCPU[cpu:Execute:32000]: 13 : 0 
+RevCPU[cpu:Execute:32000]: 14 : 10 
+RevCPU[cpu:Execute:32000]: 15 : 8 
+RevCPU[cpu:Execute:32000]: 16 : 7 
+RevCPU[cpu:Execute:32000]: 17 : 0 
+RevCPU[cpu:Execute:32000]: 18 : 0 
+RevCPU[cpu:Execute:32000]: 19 : 0 
+RevCPU[cpu:Execute:32000]: 20 : 0 
+RevCPU[cpu:Execute:32000]: 21 : 0 
+RevCPU[cpu:Execute:32000]: 22 : 0 
+RevCPU[cpu:Execute:32000]: 23 : 0 
+RevCPU[cpu:Execute:32000]: 24 : 0 
+RevCPU[cpu:Execute:32000]: 25 : 0 
+RevCPU[cpu:Execute:32000]: 26 : 0 
+RevCPU[cpu:Execute:32000]: 27 : 0 
+RevCPU[cpu:Execute:32000]: 28 : 0 
+RevCPU[cpu:Execute:32000]: 29 : 0 
+RevCPU[cpu:Execute:32000]: 30 : 0 
+RevCPU[cpu:Execute:32000]: 31 : 0 
+RevCPU[cpu:ClockTick:32000]: Core 0 ; ThreadID 0; Retiring PC= 0x101f4
+RevCPU[cpu:ClockTick:32000]: Program execution complete
+RevCPU[cpu:ClockTick:32000]: Program Stats: Total Cycles: 32 Busy Cycles: 23 Idle Cycles: 9 Eff: 0.718750
+RevCPU[cpu:ClockTick:32000]: 	 Bytes Read: 112 Bytes Written: 3378 Floats Read: 0 Doubles Read 0  Floats Exec: 0 Inst Retired: 23
+RevCPU[cpu:clockTick:32000]: Closing Processor 0 at Cycle: 32
+RevCPU[cpu:clockTick:32000]: OK to end sim at cycle: 32
+Simulation is complete, simulated time: 32 ns

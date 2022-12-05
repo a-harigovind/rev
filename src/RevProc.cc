@@ -225,6 +225,11 @@ bool RevProc::SeedInstTable(){
     EnableExt(static_cast<RevExt *>(new RV64P(feature,RegFile,mem,output)),false);
   }
 
+  // Bit Manipulation Extension
+  if( feature->IsModeEnabled(RV_B) ){
+    EnableExt(static_cast<RevExt *>(new RV64B(feature,RegFile,mem,output)),false);
+  }
+
   return true;
 }
 
@@ -1399,7 +1404,7 @@ RevInst RevProc::DecodeInst(){
 
   unsigned Entry = it->second;
 
-  if( Entry > (InstTable.size()-1) ){
+  if( Entry > (InstTable.size()-1) || it==EncToEntry.end() ){
     output->fatal(CALL_INFO, -1,
                   "Error: no entry in table for instruction at PC=0x%" PRIx64 " \
                   Opcode = %x Funct3 = %x Funct7 = %x Imm12 = %x Enc = %x \n", \

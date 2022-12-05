@@ -1,0 +1,10 @@
+ComponentName, StatisticName, StatisticSubId, StatisticType, SimTime, Rank, Sum.u64, SumSQ.u64, Count.u64, Min.u64, Max.u64
+cpu, TotalCycles, core_0, Accumulator, 32000, 0, 32, 1024, 1, 32, 32
+cpu, CyclesWithIssue, core_0, Accumulator, 32000, 0, 23, 529, 1, 23, 23
+cpu, FloatsRead, core_0, Accumulator, 32000, 0, 0, 0, 1, 0, 0
+cpu, FloatsWritten, core_0, Accumulator, 32000, 0, 0, 0, 1, 0, 0
+cpu, DoublesRead, core_0, Accumulator, 32000, 0, 0, 0, 1, 0, 0
+cpu, DoublesWritten, core_0, Accumulator, 32000, 0, 0, 0, 1, 0, 0
+cpu, BytesRead, core_0, Accumulator, 32000, 0, 112, 12544, 1, 112, 112
+cpu, BytesWritten, core_0, Accumulator, 32000, 0, 3378, 11410884, 1, 3378, 3378
+cpu, FloatsExec, core_0, Accumulator, 32000, 0, 0, 0, 1, 0, 0

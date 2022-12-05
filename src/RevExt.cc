@@ -76,6 +76,14 @@ bool RevExt::Execute(unsigned Inst, RevInst payload, uint8_t threadID){
             << " @ 0x" << std::hex << regFile[threadID].RV32_PC << std::dec << std::endl;
 #endif
 
+  output->verbose(CALL_INFO, 6, 0, "Register Values - \n");
+
+  for(int i = 0; i < _REV_NUM_REGS_; i ++)
+  {
+    output->verbose(CALL_INFO, 6, 0,
+                    "%d : %ld \n", i, regFile[threadID].RV64[i]);
+  }
+
   return true;
 }
 

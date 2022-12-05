@@ -15,7 +15,8 @@
 EXAMPLE=ex2
 CC=riscv64-unknown-elf-gcc
 #ARCH=rv64g
-ARCH=rv64imafd
+# ARCH=rv64imafd
+ARCH=rv64imafd_zbb
 
 all: $(EXAMPLE).exe
 $(EXAMPLE).exe: $(EXAMPLE).c
