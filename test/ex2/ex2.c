@@ -26,7 +26,9 @@ int main(int argc, char **argv){
 
   asm ( "li	a6,7;"
         "li	a4,10;"
-        "andn	a5,a4,a6;"
+        // "andn	a5,a4,a6;"
+        // "sh1add	a5,a4,a6;"
+        "bclr	a5,a4,a6;"
         "sw	a5,-20(s0);");
   return i;
 }

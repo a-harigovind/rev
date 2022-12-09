@@ -1006,6 +1006,12 @@ namespace SST{
         return true;
       }
 
+      static bool sh1add(RevFeature *F, RevRegFile *R,RevMem *M,RevInst Inst) {
+        R->RV64[Inst.rd] = dt_u64(td_u64(R->RV64[Inst.rs1],64) + td_u64((R->RV64[Inst.rs2] << 1),64),64);
+        R->RV64_PC += Inst.instSize;
+        return true;
+      }
+
       // ----------------------------------------------------------------------
       //
       // RISC-V RV64B Instructions
@@ -1084,7 +1090,8 @@ namespace SST{
       {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("sllw %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0111011).SetFunct3(0b001).SetFunct7(0b0000000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegUNKNOWN).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&sllw ).InstEntry},
       {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("srlw %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0111011).SetFunct3(0b101).SetFunct7(0b0000000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegUNKNOWN).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&srlw ).InstEntry},
       {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("sraw %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0111011).SetFunct3(0b101).SetFunct7(0b0100000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegUNKNOWN).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&sraw ).InstEntry},
-      {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("andn %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0110011).SetFunct3(0b111).SetFunct7(0b0100000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegGPR    ).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&andn ).InstEntry}
+      {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("andn %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0110011).SetFunct3(0b111).SetFunct7(0b0100000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegGPR    ).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&andn ).InstEntry},
+      {RevInstEntryBuilder<RevInstDefaults>().SetMnemonic("sh1add %rd, %rs1, %rs2" ).SetCost(1).SetOpcode( 0b0110011).SetFunct3(0b010).SetFunct7(0b0010000).SetrdClass(RegGPR).Setrs1Class(RegGPR).Setrs2Class(RegGPR  ).Setrs3Class(RegUNKNOWN).Setimm(FUnk).SetFormat(RVTypeR).SetImplFunc(&sh1add ).InstEntry}
       };
 
     std::vector<RevInstEntry> RV64BCTable = {
