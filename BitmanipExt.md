@@ -3,7 +3,6 @@
 The bit-manipulation (bitmanip) extension consists of instructions that are intended for code size reduction, performance improvement, and energy reduction. The instructions are divided into several smaller bitmanip extensions – Zba, Zbb, Zbc, and Zbs extensions. Bitmanip instructions with suffixes .b, .h, and .w only look at the least significant 8-bits, 16-bits, and 32-bits of the input respectively and generate XLEN-wide results. The results are zero-extended or sign-extended based on the specific instruction.
 The Zba instruction can be used to accelerate the generation of addresses that index into arrays of basic types using both unsigned word-sized and XLEN-sized indices. These instructions contain the shift and add instructions such as sh1add, sh1add.uw, and slli.uw. Zbb instructions are the most commonly used instructions and contain basic bit-manipulation instructions. Instructions in this group are logic with negate (andn, orn, xnor), count leading/trailing zero bits (clz, ctz), count population (cpop), integer minimum/maximum (max, min), and sign and zero extension (sext, zext). Bitwise rotation also comes under the Zbb group of instructions (rol, ror, orc, rev8). Zbc supports the carry-less multiplication operations (cmul, cmulh, cmulr). Zbs supports single-bit instructions to set, clear, invert or extract a single bit in a register (bclr, bext, binv, best). 
 Further details about these instruction groups and a pseudo code for its implementation can be found on the RISCV A, B, C, and S extension document. 
-
  
 ## Extension Development for Rev Core
 
@@ -121,4 +120,4 @@ It is desirable to check the functional correctness of instructions to ensure th
 
 This prints the register values at the end of every cycle which can be compared against the register values from the inline assembly code. 
  
-![rev](documentation/imgs/rev_regs1.png)
+![rev](documentation/imgs/rev_regs.png)
